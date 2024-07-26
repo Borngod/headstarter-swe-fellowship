@@ -6,6 +6,7 @@ Welcome to our collaborative projects for the Headstarter SWE Fellowship! This r
 
 - [Introduction](#introduction)
 - [Team Members](#team-members)
+- [Project Structure](#project-structure)
 - [Project Details](#project-details)
   - [Random Quote Machine](#random-quote-machine)
   - [URL Shortener](#url-shortener)
@@ -31,6 +32,25 @@ This repository is a part of our preparation for the Headstarter SWE Fellowship.
 - **Backend Team**
   - Bernard
   - Aaron
+
+## Project Structure
+
+```
+.
+├── frontend
+│   └── random-quote-machine
+│       ├── public
+│       ├── src
+│       ├── package.json
+│       ├── README.md
+│       └── ...
+└── backend
+    └── url-shortener
+        ├── src
+        ├── package.json
+        ├── README.md
+        └── ...
+```
 
 ## Project Details
 
@@ -74,45 +94,42 @@ To get started with any of the projects, follow the instructions below.
 
 ### Installation
 
-1. **Clone the repository:**
+#### Frontend (Random Quote Machine)
+
+1. **Navigate to the frontend directory:**
 
     ```bash
-    git clone https://github.com/yourusername/headstarter-swe-fellowship.git
-    cd headstarter-swe-fellowship
+    cd frontend/random-quote-machine
     ```
 
-2. **Navigate to the project directory:**
+2. **Install dependencies:**
 
-    For frontend:
-    ```bash
-    cd random-quote-machine
-    ```
-
-    For backend:
-    ```bash
-    cd url-shortener
-    ```
-
-3. **Install dependencies:**
-
-    For frontend:
     ```bash
     npm install
     ```
 
-    For backend:
-    ```bash
-    npm install
-    ```
+3. **Run the project:**
 
-4. **Run the project:**
-
-    For frontend:
     ```bash
     npm start
     ```
 
-    For backend:
+#### Backend (URL Shortener)
+
+1. **Navigate to the backend directory:**
+
+    ```bash
+    cd backend/url-shortener
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the project:**
+
     ```bash
     npm start
     ```
