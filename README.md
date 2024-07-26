@@ -133,7 +133,55 @@ To get started with any of the projects, follow the instructions below.
     ```bash
     npm start
     ```
+## Workflow
 
+### Branching
+
+1. **Create a new branch for your feature or bugfix:**
+
+    ```bash
+    git checkout -b feature-name
+    ```
+
+2. **Regularly pull from the main branch to keep your branch updated:**
+
+    ```bash
+    git checkout main
+    git pull origin main
+    git checkout feature-name
+    git merge main
+    ```
+
+### Pull Requests
+
+1. **Commit your changes and push to your branch:**
+
+    ```bash
+    git add .
+    git commit -m "Description of changes"
+    git push origin feature-name
+    ```
+
+2. **Create a pull request to merge your changes into the main branch.**
+
+### Merge Conflicts
+
+1. **If there are merge conflicts, resolve them locally:**
+
+    ```bash
+    git checkout feature-name
+    git merge main
+    ```
+
+2. **Resolve conflicts in your editor, then commit and push:**
+
+    ```bash
+    git add .
+    git commit -m "Resolved merge conflicts"
+    git push origin feature-name
+    ```
+
+3. **Update your pull request once conflicts are resolved.**
 ## Contributing
 
 We follow a collaborative approach and encourage team members to contribute effectively. Please adhere to the following guidelines:
